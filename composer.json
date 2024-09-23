@@ -10,10 +10,10 @@
     },
     "authors": [
         {
-            "name": "anyssao"
+            "name": "anyssao",
+            "email": "anyssa.ouahib@outlook.com"
         }
     ],
-    "scripts": { "test": "vendor/bin/pest" },
     "require-dev": {
         "pestphp/pest": "^2.35"
     },
@@ -21,5 +21,6 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
-    }
+    },
+    "scripts": { "test": "vendor/bin/pest" }
 }
